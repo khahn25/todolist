@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(heh.jpg);
+    background-position: center;
+}
+
+.wraper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background-color: #FD8F52; 
+    border-radius: 5px;
+    padding: 25px;  /* #589a9c*/
+}
+
+.wraper header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.wraper .inputFiled {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+
+.inputFiled input {
+    
+    border: 1px solid #611919;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left: 50px;
+}
+
+.inputFiled button{
+    width: 40px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #8ca8ad;
+    color: #110202;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+#list li{
+    list-style: none;
+    height: 60px;
+    line-height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 20px;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+#list li button{
+    position: relative;
+    margin-left: 50px 
+
+}
+
+
